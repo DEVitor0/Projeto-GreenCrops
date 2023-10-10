@@ -18,22 +18,23 @@ imagem de fundo
 	
 
 	titulo 2: ecossistema
-	paragrafo: texto
-	paragrafo: texto		fundo verde
-	paragrafo: texto
+	caixa de textos
+		paragrafo: texto
+		paragrafo: texto		fundo verde
+		paragrafo: texto
 
 	titulo 2: sociocultural
 	video sobre os impactos		fundo branco
-	videos sobre os impactos	
+	imagem de uma planta para cobrir o próximo elemento	
 
 	titulo 2: impactos na economia
-	paragrafo: texto 			fundo verde
+	paragrafo: texto 
 		
 --/main--
 --rodapé--
 	links de redirecionamente ao conteudo
-	autores do projeto
 	Fontes
-	nossas redes sociais
+	autores do projeto
+	nossas redes de contato
 	GitHub
 --/rodapé--
