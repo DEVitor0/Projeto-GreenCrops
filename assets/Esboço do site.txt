@@ -8,11 +8,11 @@
 		economia
 	--/menu de navegação--
 
-imagem de fundo
-	titulo 1: GreenCrops
-	paragrafo: Frase promissora sobre os solos
 --/header--
 --main--
+	titulo 1: GreenCrops
+	paragrafo: Frase promissora sobre os solos
+	
 	titulo 2: Dispositivo
 	paragrafo: texto contando sobre o dispotivo
 	imagem: a direita do texto
