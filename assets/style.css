@@ -1,9 +1,12 @@
+@charset "UTF-8";
+
 * {
     padding: 0;
     margin: 0;
 }
 
 :root {
+    --cor-letra: #ffffff;
     --cor0: #FFF9ED;
     --cor1: #4c7a39;
     --cor2: #087507;
@@ -12,30 +15,26 @@
 
 nav {
     width: 100vw;
-    max-height: 9%;
-    background-color: var(--cor0);
+    height: 50px;
+    background-color: var(--cor1);
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: flex-end;
-    gap: 250px;
+    gap: 30vw;
+    /*Use gap caso queira jogar mais para direita o elemento*/
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    padding: 1.5vw;
+    color: var(--cor-letra);
     position: relative;
-    bottom: 25px;
+    top: -10px;
 }
 
 nav > ul > li {
     display: inline-block;
-}
-
-#logo img {
-    width: 100px;
-    height: auto;
-    position: relative;
-    left: 80px;
 }
