@@ -13,21 +13,17 @@
 	titulo 2: Dispositivo
 	paragrafo: texto contando sobre o dispotivo
 	imagem: a direita do texto
-https://vendas.gaagrosolucoes.com.br/?gclid=EAIaIQobChMIuPnkvYvqgQMV9jCtBh1LeQYpEAAYASAAEgJ1lfD_BwE
 	
 
 	titulo 2: ecossistema
 	paragrafo: texto
 	paragrafo: texto		fundo verde
 	paragrafo: texto
-https://vendas.gaagrosolucoes.com.br/?gclid=EAIaIQobChMIuPnkvYvqgQMV9jCtBh1LeQYpEAAYASAAEgJ1lfD_BwE
-
 
 	titulo 2: sociocultural
 	video sobre os impactos		fundo branco
 	imagem de uma planta para cobrir o próximo elemento	
-
-https://vendas.gaagrosolucoes.com.br/?gclid=EAIaIQobChMIuPnkvYvqgQMV9jCtBh1LeQYpEAAYASAAEgJ1lfD_BwE	
+	
 
 	titulo 2: impactos na economia
 	paragrafo: texto 			fundo verde

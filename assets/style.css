@@ -61,12 +61,26 @@ main {
     background-color: var(--cor0);
 }
 
+#container-inicio {
+    color: var(--cor2);
+    position: relative;
+    top: 15vh;
+    left: 10vw;
+    z-index: 2;
+}
+
+#container-inicio > p {
+    color: black;
+}
+
 #imagem-inicio {
     width: 100%;
     height: 600px;
+    z-index: 1;
     /*background-image: url(""); imagem aqui*/ 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
     border-bottom-right-radius: 120px;
+
 }
