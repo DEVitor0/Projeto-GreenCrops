@@ -133,7 +133,7 @@ main {
     z-index: 2; 
 }
 
-.container-elements {
+#container-elements {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -177,6 +177,20 @@ picture > img {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    z-index: 1;
+}
+
+#bloco-amarelo {
+    width: 700px;
+    min-height: unset;
+    padding-bottom: 250px;
+    border: 2px solid #FDB034;
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    z-index: 2;
+    position: relative;
+    top: -220px;
+    right: 140px;
 }
 
 .caixas-ecossistema {
@@ -186,10 +200,11 @@ picture > img {
     margin-bottom: 20px;
     position: relative;
     right: 250px;
-    bottom: 420px;
+    bottom: 660px;
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
     padding: 10px;
+    z-index: 3;
 }
 
 #icon1 {
@@ -241,19 +256,21 @@ picture > img {
 }
 
 #container-elements-especial > h2 {
+    width: 600px;
     align-self: flex-start;
     position: relative;
     top: 160px;
-    left: 130px;
+    left: 300px;
     color: var(--cor0);
+    text-align: center;
 }
 
 #texto-ecossistema {
     align-self: flex-start;
     position: relative;
     top: 190px;
-    left: 220px;
-    width: 500px;
+    left: 300px;
+    width: 600px;
     height: 500px;
     color: black;
     background-color: white;
