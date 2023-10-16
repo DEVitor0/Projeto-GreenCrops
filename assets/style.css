@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,11 +13,13 @@
     --cor1: #4c7a39;
     --cor2: #619a3d;
     --cor3: #087507;
+    --fonte: 'Montserrat', sans-serif;
     /*Escolher uma fonte para o site*/
 }
 
 html, body {
     overflow-x: hidden;
+    font-family: var(--fonte);
 }
 
 nav {
@@ -31,8 +35,11 @@ nav {
     /*Use gap caso queira jogar mais para direita o elemento*/
 }
 
-#logo img {
-    width: 80px;
+#logo {
+    background-image: url("../conteúdo/Imagens/Verde e Laranja Minimalista Agricultura Logo/4.png");
+    background-size: cover;
+    width: 150px;
+    height: 114px;
     position: relative;
     top: 4px;
     right: 50px;
@@ -102,29 +109,11 @@ main {
     width: 100%;
     height: 900px;
     z-index: 1;
-    background-image: url("../Imagens/imagem-inicial2.jpeg");
+    background-image: url("../conteúdo/Imagens/imagem-inicial2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
 }
-
-/*#container-inicio > p {
-    color: var(--cor3);
-    position: absolute;
-    top: 110px; 
-    left: 50px;
-    transform: translate(0, -50%); 
-    z-index: 2; 
-}
-                                IMAGEM 1
-#container-inicio > h1 {
-    color: var(--cor3);
-    position: absolute;
-    top: 80px; 
-    left: 50px;
-    transform: translate(0, -50%); 
-    z-index: 2; 
-}*/
 
 #container-inicio > p {
     color: var(--cor3);
@@ -134,7 +123,7 @@ main {
     transform: translate(0, -50%); 
     z-index: 2; 
 }
-                                /*Imagem 2*/
+
 #container-inicio > h1 {
     color: var(--cor3);
     position: absolute;
@@ -165,16 +154,17 @@ main {
 #dispositivo-container > p {
     max-width: 500px;
     text-align: justify;
+    font-size: 18px;
     margin: 27px 0px 10px;
     position: relative;
     top: 230px;
-    left: 270px;
+    left: 279px;
 }
 
 picture > img {
     position: relative;
     top: 170px;
-    left: 40px;
+    left: 80px;
     width: 500px;
     height: 300px;
 }
@@ -191,15 +181,63 @@ picture > img {
 
 .caixas-ecossistema {
     width: 481px;
-    height: 254px;
+    height: 554px;
     border-radius: 10px;
     margin-bottom: 20px;
     position: relative;
     right: 250px;
-    bottom: 130px;
+    bottom: 420px;
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
     padding: 10px;
+}
+
+#icon1 {
+    font-size: 30px;
+    position: relative;
+    top: 21px;
+    left: 90px;
+    color: var(--cor3);
+}
+
+#icon2 {
+    font-size: 30px;
+    position: relative;
+    top: 21px;
+    left: 40px;
+    color: var(--cor3);
+}
+
+#icon3 {
+    font-size: 38px;
+    position: relative;
+    top: 21px;
+    left: 40px;
+    color: var(--cor3);
+}
+
+#titulo01 > h3 {
+    position: relative;
+    left: 150px;
+    top: -10px;
+}
+
+#titulo02 > h3 {
+    position: relative;
+    left: 100px;
+    top: -10px;
+}
+
+#titulo03 > h3 {
+    position: relative;
+    left: 130px;
+    top: -11px;
+}
+
+.caixas-ecossistema > p {
+    font-size: 18px;
+    padding: 10px;
+    text-align: justify;
 }
 
 #container-elements-especial > h2 {
@@ -208,4 +246,23 @@ picture > img {
     top: 160px;
     left: 130px;
     color: var(--cor0);
+}
+
+#texto-ecossistema {
+    align-self: flex-start;
+    position: relative;
+    top: 190px;
+    left: 220px;
+    width: 500px;
+    height: 500px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#texto-ecossistema > p {
+    font-size: 22px;
+    padding: 10px;
+    text-align: justify;
 }
