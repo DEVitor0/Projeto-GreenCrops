@@ -393,28 +393,24 @@ footer {
     flex-wrap: wrap;
 }
 
-/* Estilo para as seções do footer */
 footer div {
-    width: 30%; /* Divide o footer em três colunas */
+    width: 30%;
     padding: 0 20px;
     box-sizing: border-box;
     text-align: center;
 }
 
-/* Estilo para os títulos do footer */
 footer h3 {
     font-size: 24px;
     margin-bottom: 15px;
     color: var(--cor1);
 }
 
-/* Estilo para a lista de links no footer */
 footer ul {
     list-style: none;
     padding: 0;
 }
 
-/* Estilo para os links no footer */
 footer a {
     text-decoration: none;
     color: var(--cor2);
@@ -423,22 +419,19 @@ footer a {
     transition: color 0.3s;
 }
 
-/* Efeito de hover para os links no footer */
 footer a:hover {
     color: var(--cor1);
 }
 
-/* Estilo para os links externos no footer */
 footer a.external-link {
     color: var(--cor3);
     font-weight: bold;
 }
 
-/* Animação de risco para os nomes dos autores */
 footer li a {
     position: relative;
     overflow: hidden;
-    text-decoration: none; /* Remova a decoração do link */
+    text-decoration: none;
 }
 
 footer li a:before {
