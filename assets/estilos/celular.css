@@ -1,5 +1,51 @@
 @media screen and (max-width: 767px) {
-    nav {
-        
+    :root {
+        --cor-menu: #ffffff;
+        --cor-fundo: #F5F7F8;
+        --cor0: #FFF9ED;
+        --cor1: #4c7a39;
+        --cor2: #619a3d;
+        --cor3: #087507;
+        --fonte: 'Montserrat', sans-serif;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        background-color: var(--cor1);
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .menu-list.active {
+        display: flex;
+    }
+
+    .menu-list li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .menu-list a {
+        padding: 10px;
+    }
+
+    .bar.active:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .bar.active:nth-child(2) {
+        opacity: 0;
+    }
+
+    .bar.active:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
