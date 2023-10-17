@@ -48,4 +48,27 @@
     .bar.active:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    #imagem-inicio {
+        background-position: center;
+    }
+
+    #container-inicio > h1 {
+        top: 10vh;
+        left: 32vw;
+    }
+
+    #container-inicio > p {
+        width: 300px;
+        top: 18vh;
+        left: 32vw;
+    }
+
+    .menu-hidden {
+        z-index: 2;
+    }
+    .menu-list.active .menu-hidden {
+        z-index: -1; 
+    }
+
 }
