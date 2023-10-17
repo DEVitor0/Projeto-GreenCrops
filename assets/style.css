@@ -382,3 +382,108 @@ height: 300px;
 display: block;
 margin-right: 25vw;
 }
+
+/* Estilo para o footer */
+footer {
+    background-color: #F5F7F8;
+    padding: 30px 0;
+    color: var(--cor3);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Estilo para as seções do footer */
+footer div {
+    width: 30%; /* Divide o footer em três colunas */
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Estilo para os títulos do footer */
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--cor1);
+}
+
+/* Estilo para a lista de links no footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para os links no footer */
+footer a {
+    text-decoration: none;
+    color: var(--cor2);
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+/* Efeito de hover para os links no footer */
+footer a:hover {
+    color: var(--cor1);
+}
+
+/* Estilo para os links externos no footer */
+footer a.external-link {
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+/* Animação de risco para os nomes dos autores */
+footer li a {
+    position: relative;
+    overflow: hidden;
+    text-decoration: none; /* Remova a decoração do link */
+}
+
+footer li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--cor0);
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.25s;
+    z-index: 1;
+}
+
+footer li a:hover:before {
+    transform: scaleX(1);
+}
+
+#projeto-github a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, #3CA851, #087507, #3CA851, #087507);
+    background-size: 400% 200%;
+    transition: 1.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+}
+
+#projeto-github a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    animation: brilho 3.5s ease-in infinite;
+}
+
+@keyframes brilho {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
