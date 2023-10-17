@@ -9,6 +9,7 @@
 
 :root {
     --cor-menu: #ffffff;
+    --cor-fundo: #F5F7F8;
     --cor0: #FFF9ED;
     --cor1: #4c7a39;
     --cor2: #619a3d;
@@ -133,7 +134,7 @@ main {
     z-index: 2; 
 }
 
-#container-elements {
+.container-elements {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -288,8 +289,7 @@ picture > img {
     width: 100vw;
     height: 60vh;
     margin-top: 40px;
-    margin-bottom: 40px;
-    background-color: #F5F7F8;
+    background-color: var(--cor-fundo);
     position: relative;
 }
 
@@ -329,30 +329,7 @@ picture > img {
     text-align: center; 
     align-items: center;
     justify-content: center;
-}
-
-#icon-agua {
-    color: rgb(44, 112, 238);
-}
-
-#icon-planta {
-    color: #0aa107; /*ou #2ccc27*/
-}
-
-#icon-percas {
-    color: #2ccc27;
-}
-
-#icon-dinheiro {
-    color: #0aa107;
-}
-
-#icon-laranja {
-    color: #FFB347;
-}
-
-#icon-maquina {
-    color: rgb(236, 236, 16);
+    color: #087507;
 }
 
 .itens > p {
@@ -364,3 +341,44 @@ picture > img {
     padding-right: 7.3px;
 }
 
+#container-economia {
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+}
+
+#conteudo-economia {
+width: 50vw; 
+height: 80%; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: justify;
+}
+  
+#conteudo-economia h2 {
+    margin: 0;
+}
+
+#conteudo-economia p {
+    max-width: 600px;
+    padding: 10px;
+}
+  
+#imagem-economia {
+width: 50vw;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+#imagem-economia img {
+width: 500px;
+height: 300px;
+display: block;
+margin-right: 25vw;
+}
