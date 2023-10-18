@@ -105,4 +105,20 @@
     picture {
         display: none;
     }
+
+    #bloco-amarelo {
+        display: none;
+    }
+
+    .caixas-ecossistema {
+        display: none;
+    }
+
+    #texto-ecossistema {
+        display: none;
+    }
+
+    #container-elements-especial > h2 {
+        display: none; /*AQUI PARA INSERIR O TITULO NOVAMENTE*/
+    }
 }

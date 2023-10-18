@@ -213,6 +213,10 @@ picture > img {
     z-index: 1;
 }
 
+.slider-content {
+    display: none;
+}
+
 #bloco-amarelo {
     width: 700px;
     min-height: unset;
@@ -320,6 +324,7 @@ picture > img {
     padding: 10px;
     text-align: justify;
 }
+
 
 #container-GrenCrops-ajuda {
     width: 100vw;
