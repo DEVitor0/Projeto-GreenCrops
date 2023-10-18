@@ -10,3 +10,14 @@ hamburger.addEventListener('click', () => {
         element.style.zIndex = menuList.classList.contains('active') ? -1 : 2;
     });
 });
+
+function adjustTextPosition() {
+    const textElement = document.getElementById('responsive-text');
+    const imageElement = document.getElementById('imagem-inicio');
+    const imageRight = imageElement.getBoundingClientRect().right;
+
+    textElement.style.marginRight = window.innerWidth - imageRight + 'px';
+}
+
+window.addEventListener('resize', adjustTextPosition);
+adjustTextPosition();
