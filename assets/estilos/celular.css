@@ -70,21 +70,38 @@
         top: 60px;
     }
 
-    #dispositivo-container{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #dispositivo-container > h2,
-    #dispositivo-container > p {
-        width: 500px;
+    #dispositivo-container {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        text-align: center;
+      }
+      
+      #dispositivo-container > h2 {
+        width: 400px;
         text-align: justify;
         max-width: 100%;
         margin: 0;
-        left: 0;
-    }
-
+        font-size: 22px; 
+        position: absolute;
+        top: 40%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        padding-bottom: 8vh;
+      }
+      
+      #dispositivo-container > p {
+        width: 350px;
+        text-align: justify;
+        max-width: 100%;
+        margin: 0;
+        font-size: 16px; 
+        position: absolute;
+        top: 60%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+      }
+      
     picture {
         display: none;
     }
