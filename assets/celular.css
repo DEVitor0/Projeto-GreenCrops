@@ -105,5 +105,79 @@
     picture {
         display: none;
     }
-    
+
+    #container-elements-especial {
+        align-items: flex-start;
+    }
+
+    #container-elements-especial {
+        width: 100%;
+        height: auto;
+    }
+
+    #bloco-amarelo {
+        display: none;
+    }
+
+    .caixas-ecossistema {
+        width: 100%;
+        max-width: 380px; 
+        height: auto;
+        right: 5px;
+        bottom: 0;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        display: flex; 
+        flex-direction: column; 
+    }
+
+    .icone-ecossistema {
+        height: 20px;
+    }
+
+    #icon2,
+    #icon3 {
+        right: 10px;
+        bottom: 20px;
+    }
+
+    .icone-ecossistema {
+        width: 100px;
+    }
+
+    #titulo01 > h3 {
+        bottom: 40px;
+    }
+    #titulo02 > h3 {
+
+    }
+    #titulo03 > h3 {
+        left: 0; 
+    }
+
+    .caixas-ecossistema > p {
+        font-size: 16px; 
+        text-align: justify;
+    }
+
+    #container-elements-especial > h2 {
+        font-size: 24px; 
+        max-width: 400px;
+        text-align: center;
+        left: 0;
+        top: 0;
+    }
+
+    #texto-ecossistema {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    #texto-ecossistema > p {
+        font-size: 18px; 
+    }
 }
