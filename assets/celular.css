@@ -106,7 +106,7 @@
         display: none;
     }
 
-    #container-elements-especial {
+        #container-elements-especial {
         align-items: flex-start;
     }
 
@@ -133,11 +133,14 @@
 
     .icone-ecossistema {
         height: 20px;
+        transform: translate(-20%, -70%);
     }
 
-    #icon2,
+    #icon2 {
+        transform: translate(-70%, 0%);
+    }
     #icon3 {
-        right: 10px;
+        right: 30px;
         bottom: 20px;
     }
 
@@ -146,13 +149,14 @@
     }
 
     #titulo01 > h3 {
-        bottom: 40px;
+        left: 100px;
     }
-    #titulo02 > h3 {
 
+    #titulo02 > h3 {
+        left: 35px;
     }
     #titulo03 > h3 {
-        left: 0; 
+        left: 69px; 
     }
 
     .caixas-ecossistema > p {
@@ -161,6 +165,7 @@
     }
 
     #container-elements-especial > h2 {
+        padding-top: 10px;
         font-size: 24px; 
         max-width: 400px;
         text-align: center;
