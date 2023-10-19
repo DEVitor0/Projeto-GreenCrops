@@ -30,7 +30,8 @@
 
     .menu-list li {
         text-align: center;
-        margin: 15px 0;
+        margin-bottom: 5px;
+        margin-top: 30px;
     }
 
     .menu-list a {
@@ -106,7 +107,7 @@
         display: none;
     }
 
-        #container-elements-especial {
+    #container-elements-especial {
         align-items: flex-start;
     }
 
@@ -121,7 +122,7 @@
 
     .caixas-ecossistema {
         width: 100%;
-        max-width: 380px; 
+        min-width: 380px; 
         height: auto;
         right: 5px;
         bottom: 0;
