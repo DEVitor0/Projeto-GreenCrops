@@ -21,3 +21,4 @@ function adjustTextPosition() {
 
 window.addEventListener('resize', adjustTextPosition);
 adjustTextPosition();
+

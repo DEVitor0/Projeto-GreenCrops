@@ -33,7 +33,6 @@ nav {
     justify-content: space-evenly;
     align-items: flex-end;
     gap: 30vw;
-    /*Use gap caso queira jogar mais para direita o elemento*/
 }
 
 .hamburger {

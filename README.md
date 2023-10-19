@@ -6,7 +6,7 @@ GreenCrops é o nosso compromisso com uma agricultura mais inteligente e sustent
 
 O GreenCrops é nosso compromisso com uma agricultura mais inteligente e sustentável. Nossa missão é apoiar agricultores a prosperar de maneira eficiente e ecologicamente correta. Fornecemos informações práticas e precisas para aumentar a produtividade, preservar o meio ambiente e cultivar um futuro agrícola mais amigável à Terra. Junte-se a nós nesta jornada rumo a um mundo agrícola mais sustentável! 🌎🌿
 
-## Principais Recursos 📊
+## Principais Recursos do Dipositivo 📊
 
 - 🌱 Medição em Tempo Real do Solo
 - 🌦️ Dados Climáticos Locais
