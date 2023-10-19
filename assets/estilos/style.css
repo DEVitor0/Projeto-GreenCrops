@@ -325,6 +325,10 @@ picture > img {
     text-align: justify;
 }
 
+#container-elements-especial-mobile {
+    display: none;
+}
+
 #container-GrenCrops-ajuda {
     width: 100vw;
     height: 60vh;
