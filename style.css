@@ -359,7 +359,7 @@ picture > img {
 .itens > .material-icons, .itens > .material-symbols-outlined {
     width: 50%;
     height: 100%;
-    font-size: 5vh;
+    font-size: 6vh;
     display: flex; 
     text-align: center; 
     align-items: center;

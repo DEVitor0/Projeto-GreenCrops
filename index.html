@@ -94,44 +94,50 @@
         <div id="container-GrenCrops-ajuda">
             <h2>Como o dispositivo da GreenCrops pode ajudar ?</h2>
             <div id="container-itens">
-                <div class="itens">
-                    <span class="material-icons">
+                <div class="itens" onclick="toggleItem(this)">
+                    <span class="material-icons item-icon">
                         water_drop
                     </span>
-                    <p>Uso mais eficiente de recursos naturais</p>
+                    <p class="item-text">Uso mais eficiente de recursos naturais</p>
                 </div>
-                <div class="itens">
-                    <span class="material-symbols-outlined">
+                <div class="itens" onclick="toggleItem(this)">
+                    <span class="material-symbols-outlined item-icon">
                         psychiatry
                     </span>
-                    <p>Prevenção da degradação do solo</p>
+                    <p class="item-text">Prevenção da degradação do solo</p>
                 </div>
-                <div class="itens">
-                    <span class="material-icons">
+                <div class="itens" onclick="toggleItem(this)">
+                    <span class="material-icons item-icon">
                         published_with_changes
                     </span>
-                    <p>Redução de perdas agrícolas</p>
+                    <p class="item-text">Redução de perdas agrícolas</p>
                 </div>
-                <div class="itens">
-                    <span class="material-icons">
+                <div class="itens" onclick="toggleItem(this)">
+                    <span class="material-icons item-icon">
                         attach_money
                     </span>
-                    <p>Segurança financeira</p>
+                    <p class="item-text">Segurança financeira</p>
                 </div>
-                <div class="itens">
-                    <span class="material-symbols-outlined">
+                <div class="itens" onclick="toggleItem(this)">
+                    <span class="material-symbols-outlined item-icon">
                         nutrition
                     </span>
-                    <p>Melhoria na produtividade agrícola</p>
+                    <p class="item-text">Melhoria na produtividade agrícola</p>
                 </div>
-                <div class="itens">
-                    <span class="material-icons">
+                <div class="itens" onclick="toggleItem(this)">
+                    <span class="material-icons item-icon">
                         front_loader
                     </span>
-                    <p>Apoio à agricultura familiar</p>
+                    <p class="item-text">Apoio à agricultura familiar</p>
                 </div>
             </div>
         </div>
+    
+        <div id="item-selecionado" style="display: none;">
+            <span class="material-icons" id="selected-icon"></span>
+            <p id="selected-text"></p>
+        </div>
+    
         <div id="container-economia">
             <div id="conteudo-economia">
                 <h2>Fatores econômicos</h2>
@@ -170,4 +176,5 @@
 </body>
 <script src="script.js"></script>
 <script src="assets/celular.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </html>
