@@ -57,6 +57,10 @@
         z-index: -1; 
     }
 
+    .nav-economia {
+        display: none;
+    }
+
     #imagem-inicio {
         background-position: center;
     }
@@ -80,6 +84,7 @@
       
       #dispositivo-container > h2 {
         width: 400px;
+        height: 10px;
         text-align: justify;
         max-width: 100%;
         margin: 0;
@@ -271,4 +276,38 @@
     #selected-text {
         display: none;
     }
+
+    #container-economia {
+        display: none;
+    }
+
+    footer {
+        background-color: #F5F7F8;
+        padding: 30px 0;
+        color: var(--cor3);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    footer div {
+        width: 30%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+        footer {
+            flex-direction: column;
+        }
+    
+        footer div {
+            width: 100%; 
+            margin-bottom: 20px; 
+        }
+
+    #projeto-github > a {
+        transform: translate(15%, -100%);
+    }
+    
 }

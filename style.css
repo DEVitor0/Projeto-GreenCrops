@@ -384,6 +384,10 @@ picture > img {
     display: flex;
 }
 
+#imagem-economia-mobile {
+    display: none;
+}
+
 #conteudo-economia {
 width: 50vw; 
 height: 80%; 
