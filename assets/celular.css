@@ -186,6 +186,11 @@
         font-size: 18px; 
     }
 
+    #container-GrenCrops-ajuda {
+        position: relative;
+        bottom: 10vh;
+    }
+
     #container-GrenCrops-ajuda > h2 {
         width: 400px;
         text-align: center;
@@ -221,12 +226,15 @@
     .itens > .material-icons,
     .itens > .material-symbols-outlined {
         font-size: 8vh;
-        margin-top: 20px;
+        width: 50%;
     }
     
     .itens > p {
         display: none;
+        width: 50%;
         text-align: center;
+        position: relative;
+        top: 38px;
     }
     
     #item-selecionado {
@@ -253,9 +261,14 @@
     
     .itens.expandido {
         width: 100%;
+        flex-direction: row;
     }
     
     .itens.expandido > p {
         display: block;
+    }
+
+    #selected-text {
+        display: none;
     }
 }
