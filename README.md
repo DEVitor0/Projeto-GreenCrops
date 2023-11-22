@@ -1,10 +1,8 @@
 # Bem-vindo ao Projeto GreenCrops 🌱🌍
 
-## Projeto em andamento... 🚜
-
 GreenCrops é o nosso compromisso com uma agricultura mais inteligente e sustentável. Aqui, plantamos as sementes da inovação para colher um futuro mais verde e produtivo! 🌿
 
-https://devitor0.github.io/Projeto-GreenCrops/
+## /-----Projeto em andamento 🚜-----/
 
 ## Sobre Nós 🚜
 
