@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    nav {
+        gap: 15vw;
+    }
+
+    nav a {
+        left: 3vw;
+    }
+
+    #logo {
+        margin-left: 1vw;
+    }
+
+    #container-inicio > p {
+        top: 16%;
+        left: 62%;
+    }
+
+    #container-inicio > h1 {
+        top: 9.8%;
+        left: 61.6%;
+    }
+
+    #imagem-inicio {
+        height: 650px;
+    }
+}
+  
