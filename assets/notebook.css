@@ -25,5 +25,11 @@
     #imagem-inicio {
         height: 650px;
     }
+
+    #dispositivo-container > h2{
+        left: 7vw;
+        top: 15vh;
+        font-size: 22px;
+    }
 }
   
